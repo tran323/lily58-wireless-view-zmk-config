@@ -51,6 +51,11 @@
         };
     };
 
+&mt {
+    tapping-term-ms = <600>;
+};
+
+
     keymap {
         compatible = "zmk,keymap";
 
