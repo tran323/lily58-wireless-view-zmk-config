@@ -11,7 +11,7 @@
 
 / {
     behavior_tap {
-        tapping-term-ms = <200>; /* Adjust the value to your desired tapping term */
+        tapping-term-ms = <500>; /* Adjust the value to your desired tapping term */
     };
 };
 
