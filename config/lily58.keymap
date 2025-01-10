@@ -10,6 +10,12 @@
 
 
 / {
+    behavior_tap {
+        tapping-term-ms = <200>; /* Adjust the value to your desired tapping term */
+    };
+};
+
+/ {
     macros {
         macScreenShotToClipBoard: macScreenShot {
             compatible = "zmk,behavior-macro";
