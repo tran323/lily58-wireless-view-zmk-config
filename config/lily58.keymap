@@ -36,34 +36,20 @@
             label = "MACSCREENSHOTTODESKTOP";
         };
 
-        macLeftScreen: macPreviousScreen {
+        commandShiftF: commandShiftF {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_CONTROL &kp LEFT_ARROW>;
+            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp F>;
 
-            label = "MACPREVIOUSSCREEN";
+            label = "COMMANDSHIFTF";
         };
 
-        macRightScreen: macRightScreen {
+        commandF: commandF {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp RIGHT_ARROW>,
-                <&macro_release>;
+            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp F>;
 
-            label = "MACRIGHTSCREEN";
-        };
-
-        vscodeOpenNewTerminal: vcodeOpenNewTerminal {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp GRAVE>,
-                <&macro_release>;
-
-            label = "VCODEOPENNEWTERMINAL";
+            label = "COMMANDF";
         };
     };
 
@@ -132,10 +118,10 @@
 
         layer3 {
             bindings = <
-&kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &trans                   &trans                     &trans          &trans           &trans   &trans
-&trans         &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &macLeftScreen  &macRightScreen  &kp TAB  &trans
-&trans         &trans  &trans  &trans  &trans  &trans                    &vscodeOpenNewTerminal   &trans                     &trans          &trans           &trans   &trans
-&trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans          &trans           &trans   &trans
+&kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &trans                   &trans                     &trans          &trans     &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &commandShiftF  &commandF  &none   &trans
+&trans         &trans  &trans  &trans  &trans  &trans                    &none                    &trans                     &trans          &trans     &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans          &trans     &trans  &trans
                                &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans
             >;
         };
