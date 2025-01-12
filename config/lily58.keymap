@@ -39,7 +39,10 @@
         commandShiftF: commandShiftF {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp F>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp F>,
+                <&macro_release>;
 
             label = "COMMANDSHIFTF";
         };
@@ -47,7 +50,10 @@
         commandF: commandF {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LEFT_COMMAND &kp F>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND &kp F>,
+                <&macro_release>;
 
             label = "COMMANDF";
         };
