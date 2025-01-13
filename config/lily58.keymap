@@ -92,11 +92,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR_ALL  &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2    &bt BT_SEL 3      &bt BT_SEL 4                    &kp BACKSPACE      &trans        &kp KP_MULTIPLY   &kp EQUAL  &kp PLUS    &kp MINUS
-&bt BT_CLR      &bt BT_DISC 0  &bt BT_DISC 1    &kp F4          &kp F5            &kp F6                          &kp GRAVE          &kp EXCL      &kp AT            &kp HASH   &kp DOLLAR  &kp PRCNT
-&kp F7          &kp F8         &kp F9           &kp F10         &kp F11           &kp F12                         &kp CARET          &kp AMPS      &kp COLON         &kp LPAR   &kp RPAR    &kp TILDE
-&kp HOME        &kp END        &kp PRINTSCREEN  &sk LEFT_SHIFT  &sk LEFT_COMMAND  &sk LCTRL     &trans    &trans  &kp DOUBLE_QUOTES  &kp QUESTION  &kp SINGLE_QUOTE  &kp LBRC   &kp RBRC    &kp PIPE
-                                                &trans          &trans            &trans        &trans    &trans  &none              &none         &none
+&bt BT_CLR_ALL  &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &kp BACKSPACE      &trans          &kp KP_MULTIPLY   &kp EQUAL  &kp PLUS    &kp MINUS
+&bt BT_CLR      &bt BT_DISC 0  &bt BT_DISC 1    &kp F4        &kp F5        &kp F6                          &kp GRAVE          &kp EXCL        &kp AT            &kp HASH   &kp DOLLAR  &kp PRCNT
+&kp F7          &kp F8         &kp F9           &kp F10       &kp F11       &kp F12                         &kp CARET          &kp AMPS        &kp COLON         &kp LPAR   &kp RPAR    &kp TILDE
+&kp HOME        &kp END        &kp PRINTSCREEN  &none         &none         &none         &trans    &trans  &kp DOUBLE_QUOTES  &kp QUESTION    &kp SINGLE_QUOTE  &kp LBRC   &kp RBRC    &kp PIPE
+                                                &trans        &trans        &trans        &trans    &trans  &sk LEFT_COMMAND   &sk LEFT_SHIFT  &sk LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
