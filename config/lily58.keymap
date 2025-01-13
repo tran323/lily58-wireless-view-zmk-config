@@ -72,11 +72,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC           &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                              &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp GRAVE
-&kp LCTRL         &mt LS(Q) Q  &mt LS(W) W  &mt LS(E) E  &mt LS(R) R  &mt LS(T) T                         &mt LS(Y) Y  &mt LS(U) U  &mt LS(I) I  &mt LS(O) O  &mt LS(P) P  &kp TAB
-&kp LEFT_COMMAND  &mt LS(A) A  &mt LS(S) S  &mt LS(D) D  &mt LS(F) F  &mt LS(G) G                         &mt LS(H) H  &mt LS(J) J  &mt LS(K) K  &mt LS(L) L  &kp SEMI     &kp LEFT_COMMAND
-&kp LEFT_ALT      &mt LS(Z) Z  &mt LS(X) X  &mt LS(C) C  &mt LS(V) V  &mt LS(B) B  &kp LBKT     &kp RBKT  &mt LS(N) N  &mt LS(M) M  &kp COMMA    &kp DOT      &kp FSLH     &kp RSHFT
-                                            &mo 3        &mo 2        &sl 1        &kp SPACE    &kp RET   &mo 4        &mo 5        &trans
+&kp ESC           &kp N1     &kp N2     &kp N3     &kp N4       &kp N5                            &kp N6     &kp N7     &kp N8       &kp N9     &kp N0     &kp GRAVE
+&kp LCTRL         &kp LS(Q)  &kp LS(W)  &kp LS(E)  &mt LS(R) R  &kp LS(T)                         &kp LS(Y)  &kp LS(U)  &mt LS(I) I  &kp LS(O)  &kp LS(P)  &kp TAB
+&kp LEFT_COMMAND  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)    &kp LS(G)                         &kp LS(H)  &kp LS(J)  &kp LS(K)    &kp LS(L)  &kp SEMI   &kp LEFT_COMMAND
+&kp LEFT_ALT      &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)    &kp LS(B)  &kp LBKT     &kp RBKT  &kp LS(N)  &kp LS(M)  &kp COMMA    &kp DOT    &kp FSLH   &kp RSHFT
+                                        &mo 3      &mo 2        &sl 1      &kp SPACE    &kp RET   &mo 4      &mo 5      &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
