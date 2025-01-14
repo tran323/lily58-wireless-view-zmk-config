@@ -54,6 +54,22 @@
 
             label = "COMMANDF";
         };
+
+        tes1: tes1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3>;
+
+            label = "TES1";
+        };
+
+        tes2: tes2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp NUMBER_1 &kp NUMBER_2 &kp NUMBER_3>;
+
+            label = "TES2";
+        };
     };
 
     keymap {
@@ -123,7 +139,7 @@
             bindings = <
 &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &trans                   &trans                     &trans          &trans     &trans  &trans
 &trans         &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &commandShiftF  &commandF  &none   &trans
-&trans         &trans  &trans  &trans  &trans  &trans                    &none                    &trans                     &trans          &trans     &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans                    &tes1                    &tes2                      &trans          &trans     &trans  &trans
 &trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans          &trans     &trans  &trans
                                &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans
             >;
