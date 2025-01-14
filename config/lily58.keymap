@@ -20,10 +20,8 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LEFT_COMMAND>,
-                <&macro_tap>,
-                <&kp LEFT_SHIFT &kp LCTRL &kp NUMBER_4>;
+                <&macro_tap_time 10>,
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp LCTRL &kp NUMBER_4>;
 
             label = "MACSCREENSHOT";
         };
@@ -32,7 +30,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap>,
+                <&macro_tap_time 10>,
                 <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>;
 
             label = "MACSCREENSHOTTODESKTOP";
