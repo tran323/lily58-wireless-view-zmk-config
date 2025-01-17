@@ -263,9 +263,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_COMMAND &kp FORWARD_SLASH>,
+                <&kp LEFT_COMMAND &kp SLASH>,
                 <&macro_release>,
-                <&kp LEFT_COMMAND &kp FORWARD_SLASH>;
+                <&kp LEFT_COMMAND &kp SLASH>;
 
             label = "XCODE_COMMENT";
         };
@@ -287,9 +287,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp UP_ARROW>,
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp UP_ARROW>,
                 <&macro_release>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp UP_ARROW>;
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp UP_ARROW>;
 
             label = "XCODE_MOVE_LINE_UP";
         };
@@ -299,9 +299,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp DOWN_ARROW>,
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp DOWN_ARROW>,
                 <&macro_release>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp DOWN_ARROW>;
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp DOWN_ARROW>;
 
             label = "XCODE_MOVE_LINE_DOWN";
         };
@@ -311,9 +311,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp LEFT_ARROW>,
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp LEFT_ARROW>,
                 <&macro_release>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp LEFT_ARROW>;
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp LEFT_ARROW>;
 
             label = "XCODE_FOLD_METHOD";
         };
@@ -323,9 +323,9 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp RIGHT_ARROW>,
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp RIGHT_ARROW>,
                 <&macro_release>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp RIGHT_ARROW>;
+                <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp RIGHT_ARROW>;
 
             label = "XCODE_UNFOLD_METHOD";
         };
@@ -430,17 +430,6 @@
             label = "XCODE_SAVE";
         };
 
-        xcSaveAll: &xc_save_all {
-            compatible = "zmk,behavior-macro";
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp S>,
-                <&macro_release>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp S>;
-
-            label = "XCODE_SAVE_ALL";
-        };
-
         // View Management
 
         xcToggleNavigator: &xc_toggle_navigator {
@@ -453,18 +442,6 @@
                 <&kp LEFT_COMMAND &kp NUMBER_0>;
 
             label = "XCODE_TOGGLE_NAV";
-        };
-
-        xcToggleInspectors: &xc_toggle_inspectors {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp NUMBER_0>,
-                <&macro_release>,
-                <&kp LEFT_OPTION &kp LEFT_COMMAND &kp NUMBER_0>;
-
-            label = "XCODE_TOGGLE_INSPECTORS";
         };
 
         xcToggleDebugArea: &xc_toggle_debug_area {
