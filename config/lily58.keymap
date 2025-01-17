@@ -42,6 +42,7 @@
  
          xcQuickHelp: xc_quick_help {
              compatible = "zmk,behavior-macro";
+             #binding-cells = <0>;
              bindings =
                  <&macro_press>,
                  <&kp LEFT_COMMAND &kp QUESTION>,
@@ -65,6 +66,7 @@
  
          xcAnalyze: xc_analyze {
              compatible = "zmk,behavior-macro";
+             #binding-cells = <0>;
              bindings =
                  <&macro_press>,
                  <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp B>,
