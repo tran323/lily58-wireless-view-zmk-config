@@ -139,10 +139,10 @@
 
         layer3 {
             bindings = <
-&kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &trans                   &trans                     &trans          &trans     &trans  &trans
-&trans         &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &commandShiftF  &commandF  &none   &trans
-&trans         &trans  &trans  &trans  &trans  &trans                    &tes1                    &tes2                      &trans          &trans     &trans  &trans
-&trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans          &trans     &trans  &trans
+&kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &kp K_COPY               &kp K_PASTE                &kp C_AC_COPY   &kp C_AC_PASTE  &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &commandShiftF  &commandF       &none   &trans
+&trans         &trans  &trans  &trans  &trans  &trans                    &tes1                    &tes2                      &trans          &trans          &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans          &trans          &trans  &trans
                                &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans
             >;
         };
