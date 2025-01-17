@@ -22,243 +22,243 @@
  *
  * START
  */
-        xc-preferences: xc-preferences {
+           &xc_preferences: xc_preferences {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp COMMA>, <&macro_release>, <&kp LEFT_COMMAND &kp COMMA>;
             label = "XCODE_PREFERENCES";
         };
-        xc-documentation: xc-documentation {
+        &xc_documentation: xc_documentation {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp NUMBER_0>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp NUMBER_0>;
             label = "XCODE_DOCUMENTATION";
         };
-        xc-console: xc-console {
+        &xc_console: xc_console {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp C>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp C>;
             label = "XCODE_CONSOLE";
         };
-        xc-quick_help: xc-quick_help {
+        &xc_quick_help: xc_quick_help {
             compatible = "zmk,behavior-macro";
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp QUESTION>, <&macro_release>, <&kp LEFT_COMMAND &kp QUESTION>;
             label = "XCODE_QUICK_HELP";
         };
-        xc-build: xc-build {
+        &xc_build: xc_build {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp B>, <&macro_release>, <&kp LEFT_COMMAND &kp B>;
             label = "XCODE_BUILD";
         };
-        xc-analyze: xc-analyze {
+        &xc_analyze: xc_analyze {
             compatible = "zmk,behavior-macro";
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp B>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp B>;
             label = "XCODE_ANALYZE";
         };
-        xc-run: xc-run {
+        &xc_run: xc_run {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp R>, <&macro_release>, <&kp LEFT_COMMAND &kp R>;
             label = "XCODE_RUN";
         };
-        xc-profile: xc-profile {
+        &xc_profile: xc_profile {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp I>, <&macro_release>, <&kp LEFT_COMMAND &kp I>;
             label = "XCODE_PROFILE";
         };
-        xc-test: xc-test {
+        &xc_test: xc_test {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp U>, <&macro_release>, <&kp LEFT_COMMAND &kp U>;
             label = "XCODE_TEST";
         };
-        xc-clean: xc-clean {
+        &xc_clean: xc_clean {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp K>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp K>;
             label = "XCODE_CLEAN";
         };
-        xc-clear_console: xc-clear_console {
+        &xc_clear_console: xc_clear_console {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp K>, <&macro_release>, <&kp LEFT_COMMAND &kp K>;
             label = "XCODE_CLEAR_CONSOLE";
         };
 
         // Code Navigation
-        xc-goto_line: xc-goto_line {
+        &xc_goto_line: xc_goto_line {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp L>, <&macro_release>, <&kp LEFT_COMMAND &kp L>;
             label = "XCODE_GOTO_LINE";
         };
-        xc-find_in_file: xc-find_in_file {
+        &xc_find_in_file: xc_find_in_file {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp F>, <&macro_release>, <&kp LEFT_COMMAND &kp F>;
             label = "XCODE_FIND_IN_FILE";
         };
-        xc-find_in_project: xc-find_in_project {
+        &xc_find_in_project: xc_find_in_project {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp F>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp F>;
             label = "XCODE_FIND_IN_PROJECT";
         };
-        xc-find_next: xc-find_next {
+        &xc_find_next: xc_find_next {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp G>, <&macro_release>, <&kp LEFT_COMMAND &kp G>;
             label = "XCODE_FIND_NEXT";
         };
-        xc-find_previous: xc-find_previous {
+        &xc_find_previous: xc_find_previous {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp G>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp G>;
             label = "XCODE_FIND_PREVIOUS";
         };
-        xc-open_quickly: xc-open_quickly {
+        &xc_open_quickly: xc_open_quickly {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp O>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp O>;
             label = "XCODE_OPEN_QUICKLY";
         };
-        xc-jump_to_definition: xc-jump_to_definition {
+        &xc_jump_to_definition: xc_jump_to_definition {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp J>, <&macro_release>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp J>;
             label = "XCODE_JUMP_DEF";
         };
-        xc-go_back: xc-go_back {
+        &xc_go_back: xc_go_back {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp LEFT_ARROW>, <&macro_release>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp LEFT_ARROW>;
             label = "XCODE_GO_BACK";
         };
-        xc-go_forward: xc-go_forward {
+        &xc_go_forward: xc_go_forward {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp RIGHT_ARROW>, <&macro_release>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp RIGHT_ARROW>;
             label = "XCODE_GO_FORWARD";
         };
-        xc-show_related_items: xc-show_related_items {
+        &xc_show_related_items: xc_show_related_items {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_CONTROL &kp NUMBER_1>, <&macro_release>, <&kp LEFT_CONTROL &kp NUMBER_1>;
             label = "XCODE_SHOW_RELATED";
         };
 
         // Code Editing
-        xc-comment_selection: xc-comment_selection {
+        &xc_comment_selection: xc_comment_selection {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp FORWARD_SLASH>, <&macro_release>, <&kp LEFT_COMMAND &kp FORWARD_SLASH>;
             label = "XCODE_COMMENT";
         };
-        xc-delete_line: xc-delete_line {
+        &xc_delete_line: xc_delete_line {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp D>, <&macro_release>, <&kp LEFT_COMMAND &kp D>;
             label = "XCODE_DELETE_LINE";
         };
-        xc- move_line_up: xc-move_line_up {
+        &xc_ move_line_up: xc_move_line_up {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp UP_ARROW>, <&macro_release>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp UP_ARROW>;
             label = "XCODE_MOVE_LINE_UP";
         };
-        xc-move_line_down: xc-move_line_down {
+        &xc_move_line_down: xc_move_line_down {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp DOWN_ARROW>, <&macro_release>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp DOWN_ARROW>;
             label = "XCODE_MOVE_LINE_DOWN";
         };
-        xc-fold_method: xc-fold_method {
+        &xc_fold_method: xc_fold_method {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp LEFT_ARROW>, <&macro_release>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp LEFT_ARROW>;
             label = "XCODE_FOLD_METHOD";
         };
-        xc-unfold_method: xc-unfold_method {
+        &xc_unfold_method: xc_unfold_method {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp RIGHT_ARROW>, <&macro_release>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp RIGHT_ARROW>;
             label = "XCODE_UNFOLD_METHOD";
         };
-        xc-edit_all_in_scope: xc-edit_all_in_scope {
+        &xc_edit_all_in_scope: xc_edit_all_in_scope {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp E>, <&macro_release>, <&kp LEFT_CONTROL &kp LEFT_COMMAND &kp E>;
             label = "XCODE_EDIT_ALL_IN_SCOPE";
         };
 
         // Debugging
-        xc-add_breakpoint: xc-add_breakpoint {
+        &xc_add_breakpoint: xc_add_breakpoint {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp BACKSLASH>, <&macro_release>, <&kp LEFT_COMMAND &kp BACKSLASH>;
             label = "XCODE_ADD_BREAKPOINT";
         };
-        xc-continue_execution: xc-continue_execution {
+        &xc_continue_execution: xc_continue_execution {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp Y>, <&macro_release>, <&kp LEFT_COMMAND &kp Y>;
             label = "XCODE_CONTINUE";
         };
-        xc-step_over: xc-step_over {
+        &xc_step_over: xc_step_over {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp O>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp O>;
             label = "XCODE_STEP_OVER";
         };
-        xc-step_into: xc-step_into {
+        &xc_step_into: xc_step_into {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp I>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp I>;
             label = "XCODE_STEP_INTO";
         };
-        xc-step_out: xc-step_out {
+        &xc_step_out: xc_step_out {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp U>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp U>;
             label = "XCODE_STEP_OUT";
         };
 
         // File Navigation
-        xc-new_file: xc-new_file {
+        &xc_new_file: xc_new_file {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp N>, <&macro_release>, <&kp LEFT_COMMAND &kp N>;
             label = "XCODE_NEW_FILE";
         };
-        xc-save: xc-save {
+        &xc_save: xc_save {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp S>, <&macro_release>, <&kp LEFT_COMMAND &kp S>;
             label = "XCODE_SAVE";
         };
-        xc-save_all: xc-save_all {
+        &xc_save_all: xc_save_all {
             compatible = "zmk,behavior-macro";
             bindings = <&macro_press>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp S>, <&macro_release>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp S>;
             label = "XCODE_SAVE_ALL";
         };
           // View Management
-        xc-toggle_navigator: xc-toggle_navigator {
+        &xc_toggle_navigator: xc_toggle_navigator {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_COMMAND &kp NUMBER_0>, <&macro_release>, <&kp LEFT_COMMAND &kp NUMBER_0>;
             label = "XCODE_TOGGLE_NAV";
         };
-        xc-toggle_inspectors: xc-toggle_inspectors {
+        &xc_toggle_inspectors: xc_toggle_inspectors {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp NUMBER_0>, <&macro_release>, <&kp LEFT_OPTION &kp LEFT_COMMAND &kp NUMBER_0>;
             label = "XCODE_TOGGLE_INSPECTORS";
         };
-        xc-toggle_debug_area: xc-toggle_debug_area {
+        &xc_toggle_debug_area: xc_toggle_debug_area {
             compatible = "zmk,behavior-macro";
-#binding-cells = <0>;
+            #binding-cells = <0>;
             bindings = <&macro_press>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp Y>, <&macro_release>, <&kp LEFT_SHIFT &kp LEFT_COMMAND &kp Y>;
             label = "XCODE_TOGGLE_DEBUG";
         };
