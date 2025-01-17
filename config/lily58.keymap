@@ -33,7 +33,7 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>;
+                <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>,
                 <&macro_release>,
                 <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp NUMBER_4>;
 
@@ -46,7 +46,7 @@
             bindings =
                 <&macro_press>,
                 <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp F>,
-                <&macro_release>;
+                <&macro_release>,
                 <&kp LEFT_COMMAND &kp LEFT_SHIFT &kp F>,
 
             label = "COMMANDSHIFTF";
@@ -57,7 +57,7 @@
             #binding-cells = <0>;
             bindings = 
                 <&macro_press>, 
-                <&kp LEFT_COMMAND &kp F>;
+                <&kp LEFT_COMMAND &kp F>,
                 <&macro_release>,
                 <&kp LEFT_COMMAND &kp F>;
             
@@ -69,7 +69,7 @@
             #binding-cells = <0>;
             bindings = 
                 <&macro_press>, 
-                <&kp LEFT_COMMAND &kp C>;
+                <&kp LEFT_COMMAND &kp C>,
                 <&macro_release>,
                 <&kp LEFT_COMMAND &kp C>;
 
