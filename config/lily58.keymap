@@ -16,12 +16,6 @@
 
 / {
     macros {
-        /*
- * Xcode
- *
- * START
- */
-
         xcDocumentation: &xc_documentation {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -484,12 +478,6 @@
 
             label = "XCODE_TOGGLE_DEBUG";
         };
-
-        /*
- * Xcode
- *
- * END
- */
 
         macScreenShotToClipBoard: macScreenShot {
             compatible = "zmk,behavior-macro";
