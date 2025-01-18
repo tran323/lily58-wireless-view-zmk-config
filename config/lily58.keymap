@@ -563,6 +563,18 @@
 
             label = "DELETEFILE";
         };
+
+        commandTab: commandTab {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_COMMAND &kp TAB>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND &kp TAB>;
+
+            label = "COMMANDTAB";
+        };
     };
 
     keymap {
@@ -632,7 +644,7 @@
             bindings = <
 &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &none           &none      &trans  &trans
 &trans         &trans  &trans  &trans  &trans  &trans                    &copy                    &paste                     &commandShiftF  &commandF  &none   &trans
-&trans         &trans  &trans  &trans  &trans  &trans                    &controlLeftArrow        &controlRightArrow         &trans          &trans     &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans                    &controlLeftArrow        &controlRightArrow         &commandTab     &trans     &trans  &trans
 &trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &deleteFile              &trans                     &trans          &trans     &trans  &trans
                                &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans
             >;
