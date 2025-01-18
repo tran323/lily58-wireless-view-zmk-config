@@ -551,6 +551,18 @@
 
             label = "CONTROLLEFTARROW";
         };
+
+        deleteFile: deleteFile {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LCMD &kp BACKSPACE>,
+                <&macro_release>,
+                <&kp LEFT_COMMAND &kp BACKSPACE>;
+
+            label = "DELETEFILE";
+        };
     };
 
     keymap {
@@ -621,7 +633,7 @@
 &kp BACKSPACE  &trans  &trans  &trans  &trans  &trans                    &macScreenShotToDeskTop  &macScreenShotToClipBoard  &none           &none      &trans  &trans
 &trans         &trans  &trans  &trans  &trans  &trans                    &copy                    &paste                     &commandShiftF  &commandF  &none   &trans
 &trans         &trans  &trans  &trans  &trans  &trans                    &controlLeftArrow        &controlRightArrow         &trans          &trans     &trans  &trans
-&trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans          &trans     &trans  &trans
+&trans         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &deleteFile              &trans                     &trans          &trans     &trans  &trans
                                &trans  &trans  &trans  &trans    &trans  &trans                   &trans                     &trans
             >;
         };
