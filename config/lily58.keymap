@@ -614,7 +614,7 @@
 &none  &to 0   &to 1   &to 2   &to 3   &to 4                     &kp GRAVE          &kp EXCL        &kp AT            &kp HASH   &kp DOLLAR  &kp PRCNT
 &none  &to 5   &to 6   &to 7   &to 8   &to 9                     &kp CARET          &kp AMPS        &kp COLON         &kp LPAR   &kp RPAR    &kp TILDE
 &none  &to 10  &to 11  &to 12  &to 13  &to 14  &trans    &trans  &kp DOUBLE_QUOTES  &kp QUESTION    &kp SINGLE_QUOTE  &kp LBRC   &kp RBRC    &kp PIPE
-                       &trans  &trans  &trans  &trans    &trans  &sk LEFT_COMMAND   &sk LEFT_SHIFT  &sk LCTRL
+                       &trans  &trans  &sl 1   &trans    &trans  &sk LEFT_COMMAND   &sk LEFT_SHIFT  &sk LCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -634,7 +634,7 @@
 &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7     &kp UP     &kp N9     &kp N0    &trans
 &kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT   &kp DOWN   &kp RIGHT  &trans    &trans
 &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans     &trans
+                           &trans   &trans   &sl 1    &trans    &trans  &trans       &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -646,7 +646,7 @@
 &trans        &trans        &trans        &trans        &trans        &trans                            &copy                    &paste                     &commandShiftF  &commandF    &none   &trans
 &trans        &trans        &trans        &trans        &trans        &trans                            &controlLeftArrow        &controlRightArrow         &commandTab     &commandTab  &trans  &trans
 &trans        &trans        &trans        &trans        &trans        &bt BT_CLR_ALL  &trans    &trans  &deleteFile              &trans                     &trans          &trans       &trans  &trans
-                                          &trans        &trans        &trans          &trans    &trans  &trans                   &trans                     &trans
+                                          &trans        &trans        &sl 1           &trans    &trans  &trans                   &trans                     &trans
             >;
         };
 
@@ -656,7 +656,7 @@
 &xcFoldMethod    &xcDeleteLine  &xcGotoLine  &xcOpenQuickly  &xcGoBack            &xcGoForward                        &trans  &trans  &trans  &trans  &trans  &trans
 &xcUnfoldMethod  &xcClean       &xcBuild     &xcRun          &xcJumpToDefinition  &xcFindInProject                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans           &trans         &trans       &trans          &trans               &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                             &trans          &trans               &trans            &trans    &trans  &trans  &trans  &trans
+                                             &trans          &trans               &sl 1             &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -666,7 +666,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -676,7 +676,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -686,7 +686,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -696,7 +696,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -706,7 +706,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -716,7 +716,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -726,7 +726,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -736,7 +736,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -746,7 +746,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
 
@@ -756,7 +756,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+                        &trans  &trans  &sl 1   &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
