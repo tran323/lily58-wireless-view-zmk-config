@@ -610,11 +610,11 @@
 
             display-name = "Lower";
             bindings = <
-&none  &none   &none   &none   &none   &none                               &kp RIGHT_BRACKET  &kp UNDER     &kp KP_MULTIPLY   &kp EQUAL  &kp PLUS    &kp MINUS
-&none  &tog 0  &tog 2  &tog 3  &tog 4  &to 5                               &kp GRAVE          &kp EXCL      &kp AT            &kp HASH   &kp DOLLAR  &kp PRCNT
-&none  &to 6   &to 7   &to 8   &to 9   &to 10                              &kp CARET          &kp AMPS      &kp COLON         &kp LPAR   &kp RPAR    &kp TILDE
-&none  &to 11  &to 12  &to 13  &to 14  &to 15  &trans    &kp LEFT_BRACKET  &kp DOUBLE_QUOTES  &kp QUESTION  &kp SINGLE_QUOTE  &kp LBRC   &kp RBRC    &kp PIPE
-                       &trans  &trans  &sl 1   &trans    &trans            &none              &none         &none
+&none  &none   &none   &none   &none   &none                     &kp RIGHT_BRACKET  &kp UNDER     &kp KP_MULTIPLY   &kp EQUAL  &kp PLUS    &kp MINUS
+&none  &to 0   &to 2   &to 3   &to 4   &to 5                     &kp LEFT_BRACKET   &kp EXCL      &kp AT            &kp HASH   &kp DOLLAR  &kp PRCNT
+&none  &to 6   &to 7   &to 8   &to 9   &to 10                    &kp CARET          &kp AMPS      &kp COLON         &kp LPAR   &kp RPAR    &kp TILDE
+&none  &to 11  &to 12  &to 13  &to 14  &to 15  &trans    &none   &kp DOUBLE_QUOTES  &kp QUESTION  &kp SINGLE_QUOTE  &kp LBRC   &kp RBRC    &kp PIPE
+                       &trans  &trans  &sl 1   &trans    &trans  &none              &none         &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
