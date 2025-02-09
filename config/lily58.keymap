@@ -642,11 +642,11 @@
 
         layer3 {
             bindings = <
-&trans  &none   &none   &none   &none   &trans                                 &macScreenShotToDeskTop  &macScreenShotToClipBoard  &none           &none        &trans  &trans
-&trans  &none   &none   &none   &none   &trans                                 &copy                    &paste                     &commandShiftF  &commandF    &none   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                 &controlLeftArrow        &controlRightArrow         &commandTab     &commandTab  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &none   &bt BT_CLR_ALL    &deleteFile  &deleteFile              &trans                     &trans          &trans       &trans  &trans
-                        &trans  &trans  &to 1   &trans            &trans       &trans                   &trans                     &trans
+&trans  &none   &none   &none   &none   &trans                         &macScreenShotToDeskTop  &macScreenShotToClipBoard  &none           &none        &trans  &trans
+&trans  &none   &none   &none   &none   &trans                         &copy                    &paste                     &commandShiftF  &commandF    &none   &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &controlLeftArrow        &controlRightArrow         &commandTab     &commandTab  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &none   &none     &deleteFile  &deleteFile              &trans                     &trans          &trans       &trans  &trans
+                        &trans  &trans  &to 1   &trans    &trans       &trans                   &trans                     &trans
             >;
         };
 
@@ -722,11 +722,11 @@
 
         layer_11 {
             bindings = <
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans        &trans                          &trans  &trans  &trans  &trans  &trans  &trans
-&trans        &trans        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans        &trans        &to 1         &trans    &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 3  &bt BT_SEL 4                            &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans        &bt BT_CLR_ALL    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans        &trans        &to 1         &trans            &trans  &trans  &trans  &trans
             >;
         };
 
