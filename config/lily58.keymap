@@ -642,11 +642,11 @@
 
         layer3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                         &macScreenShotToDeskTop  &macScreenShotToClipBoard  &trans          &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &copy                    &paste                     &commandShiftF  &commandF    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &controlLeftArrow        &controlRightArrow         &commandTab     &commandTab  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &deleteFile  &deleteFile              &trans                     &trans          &trans       &trans  &trans
-                        &trans  &trans  &to 1   &trans    &trans       &trans                   &trans                     &trans
+&trans  &trans  &trans  &trans  &trans                     &trans                                          &trans             &trans              &trans          &trans       &trans  &trans
+&trans  &trans  &trans  &trans  &macScreenShotToClipBoard  &macScreenShotToDeskTop                         &copy              &paste              &commandShiftF  &commandF    &trans  &trans
+&trans  &trans  &trans  &trans  &trans                     &trans                                          &controlLeftArrow  &controlRightArrow  &commandTab     &commandTab  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                     &trans                   &trans    &deleteFile  &deleteFile        &trans              &trans          &trans       &trans  &trans
+                        &trans  &trans                     &to 1                    &trans    &trans       &trans             &trans              &trans
             >;
         };
 
