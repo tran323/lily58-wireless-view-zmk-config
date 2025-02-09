@@ -1,4 +1,10 @@
-on: [push, pull_request, workflow_dispatch]
+name: Build ZMK User Config
+
+on:
+  push:
+    tags:
+      - '**'  # Triggers on any tag push
+  workflow_dispatch:
 
 jobs:
   build:
