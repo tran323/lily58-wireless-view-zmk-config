@@ -622,18 +622,18 @@
 
         raise_layer {
             // ------------------------------------------------------------------------------------------------------------
+            // |   `   |     |     |      |      |      |                   |      |       |       |      |       |       |
             // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
-            // |   `   |  1  |  2  |  3   |  4   |  5   |                   |  6   |   7   |   ^   |  9   |   0   |       |
             // |   F1  |  F2 |  F3 |  F4  |  F5  |  F6  |                   |      |   <-  |   v   | ->   |       |       |
             // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
             //                     |      |      |      |        |  |       |      |       |       |
 
             display-name = "Raise";
             bindings = <
-&trans        &trans  &trans  &trans   &trans   &trans                     &trans  &trans    &trans          &trans     &trans  &trans
-&kp CAPSLOCK  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6  &kp N7    &kp NUMBER_8    &kp N9     &kp N0  &trans
-&kp F1        &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans  &kp LEFT  &kp UP_ARROW    &kp RIGHT  &trans  &trans
-&kp F7        &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &none   &none     &kp DOWN_ARROW  &none      &none   &kp BSLH
+&kp CAPSLOCK  &trans  &trans  &trans   &trans   &trans                     &trans  &trans    &trans          &trans     &trans  &trans
+&trans        &trans  &trans  &trans   &trans   &trans                     &trans  &trans    &kp UP_ARROW           &trans     &trans  &trans
+&kp F1        &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans  &kp LEFT  &kp DOWN_ARROW   &kp RIGHT  &trans  &trans
+&kp F7        &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &none   &none     &none  &none      &none   &kp BSLH
                               &trans   &trans   &to 1    &trans    &trans  &trans  &trans    &trans
             >;
 
