@@ -590,7 +590,7 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC           &tog 1  &tog 2  &tog 3  &tog 4  &to 5                               &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &to 10    &to 12
+&kp ESC           &tog 1  &tog 2  &tog 3  &tog 4  &to 5                               &kp UP_ARROW  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &to 10    &to 11
 &sk LCTRL         &kp Q   &kp W   &kp E   &kp R   &kp T                               &kp Y         &kp U           &kp I           &kp O            &kp P     &kp TAB
 &sk LEFT_COMMAND  &kp A   &kp S   &kp D   &kp F   &kp G                               &kp H         &kp J           &kp K           &kp L            &kp SEMI  &sk LEFT_ALT
 &sk LEFT_SHIFT    &kp Z   &kp X   &kp C   &kp V   &kp B  &kp DELETE    &kp BACKSPACE  &kp N         &kp M           &kp COMMA       &kp DOT          &kp FSLH  &sk RSHFT
