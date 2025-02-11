@@ -613,7 +613,7 @@
 &trans            &trans             &trans           &trans         &trans            &trans                               &trans          &trans           &trans         &trans        &trans                &trans
 &kp GRAVE         &kp TILDE          &kp EXCLAMATION  &kp AT         &kp HASH          &kp DOLLAR                           &kp PERCENT     &kp CARET        &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp MINUS         &kp UNDERSCORE     &kp EQUAL        &kp PLUS       &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH  &kp PIPE      &kp SEMICOLON         &kp COLON
-&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp COMMA        &kp LESS_THAN  &kp DOT           &kp GREATER_THAN   &trans    &trans  &trans          &trans           &trans         &trans        &kp SLASH             &kp QUESTION
+&kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp COMMA        &kp LESS_THAN  &kp DOT           &kp GREATER_THAN   &trans    &trans  &kp UP_ARROW    &kp DOWN         &kp LEFT       &kp RIGHT     &kp SLASH             &kp QUESTION
                                                       &trans         &trans            &trans             &trans    &trans  &trans
             >;
 
