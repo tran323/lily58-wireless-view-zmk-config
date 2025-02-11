@@ -610,12 +610,13 @@
 
             display-name = "Lower";
 bindings = <
-&kp GRAVE        &kp TILDE     &kp EXCLAMATION  &kp AT       &kp HASH      &kp DOLLAR                                        &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PAREN  &kp RIGHT_PAREN
-&sk LEFT_CONTROL &kp MINUS     &kp UNDERSCORE   &kp EQUAL    &kp PLUS      &kp LEFT_BRACKET                                  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH &kp PIPE       &kp SEMICOLON
-&sk LEFT_COMMAND &kp COLON     &kp SINGLE_QUOTE &kp DOUBLE_QUOTE &kp COMMA  &kp LESS_THAN                                    &kp DOT       &kp GREATER_THAN &kp SLASH  &kp QUESTION  &kp BACKSPACE  &kp DELETE
-&sk LEFT_SHIFT   &kp SPACE     &kp ENTER        &kp TAB      &kp ESCAPE    &kp TILDE        &kp EXCLAMATION   &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT  &kp CARET  &kp AMPERSAND  &sk RSHFT
-                                            &sl 3         &sl 2         &sl 1         &kp SPACE           &kp RET            &sl 4         &sl 5         &sl 6
+&kp GRAVE       &kp TILDE      &kp EXCLAMATION  &kp AT       &kp HASH      &kp DOLLAR       &kp PERCENT    &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PAREN  &kp RIGHT_PAREN
+&kp MINUS       &kp UNDERSCORE &kp EQUAL        &kp PLUS     &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BACKSLASH &kp PIPE       &kp SEMICOLON   &kp COLON
+&kp SINGLE_QUOTE &kp DOUBLE_QUOTE &kp COMMA      &kp LESS_THAN &kp DOT      &kp GREATER_THAN &kp SLASH      &kp QUESTION  &trans        &trans        &trans         &trans
+&trans         &trans         &trans           &trans       &trans        &trans           &trans        &trans       &trans        &trans        &trans         &trans        &trans        &trans
+                                            &trans       &trans       &trans       &trans         &trans         &trans       &trans       &trans
 >;
+
 
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
